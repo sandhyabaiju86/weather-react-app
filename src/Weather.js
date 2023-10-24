@@ -49,10 +49,10 @@ export default function Weather() {
       <div className="Weather">
         {form}
         <ul>
-          <li>Temperature:{Math.round(message.Temperature)} C</li>
-          <li>Description:{message.Description}</li>
-          <li>Humidity:{message.Humidity}%</li>
-          <li>Wind:{message.Wind}Km/h</li>
+          <li>Temperature &nbsp;:&nbsp;&nbsp;{Math.round(message.Temperature)} &deg;C</li>
+          <li>Description&nbsp;:&nbsp;&nbsp;{message.Description}</li>
+          <li>Humidity&nbsp;: &nbsp;&nbsp;{message.Humidity}%</li>
+          <li>Wind&nbsp;: &nbsp;&nbsp;&nbsp;{message.Wind}Km/h</li>
           <li>
             <img src={message.icon} alt={message.description} />
           </li>
